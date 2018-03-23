@@ -3,11 +3,101 @@
   
     
     <entry>
+      <title>尝试hexo主题melody附带创建slide</title>
+      <link href="/2018/03/23/slides-test/"/>
+      <url>/2018/03/23/slides-test/</url>
+      <content type="html"><![CDATA[<h2 id="hexo-theme-melody-v1-5"><a href="#hexo-theme-melody-v1-5" class="headerlink" title="hexo-theme-melody v1.5"></a>hexo-theme-melody <small>v1.5</small></h2><!-- .slide: data-background="#222" --><p>##data-background=”XXX”可以调整slide的背景颜色</p><!-- .slide: data-transition="concave" data-background="#C7916B" --><h2 id="data-transition-”XXX”可以调整slide切换动画"><a href="#data-transition-”XXX”可以调整slide切换动画" class="headerlink" title="data-transition=”XXX”可以调整slide切换动画"></a>data-transition=”XXX”可以调整slide切换动画</h2><!-- .slide: data-transition="fade" data-background="#00C4B6" --><p>##最后一页</p>]]></content>
+      
+      <categories>
+          
+          <category> pract </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2018/03/23/hello-world/"/>
       <url>/2018/03/23/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
+      
+    </entry>
+    
+    <entry>
+      <title>使用Hexo部署静态网站到GitHub以及Coding</title>
+      <link href="/2018/03/22/Deploy/"/>
+      <url>/2018/03/22/Deploy/</url>
+      <content type="html"><![CDATA[<h2 id="利用Hexo部署个人静态网站到Github以及Coding上"><a href="#利用Hexo部署个人静态网站到Github以及Coding上" class="headerlink" title="利用Hexo部署个人静态网站到Github以及Coding上"></a>利用Hexo部署个人静态网站到Github以及Coding上</h2>]]></content>
+      
+      <categories>
+          
+          <category> pract </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>搜狗输入法实现自定义短语快捷输入front-matter</title>
+      <link href="/2018/03/22/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD/"/>
+      <url>/2018/03/22/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD/</url>
+      <content type="html"><![CDATA[<p>搜狗输入法如何使用自定义短语实现Hexo 搭建网页过程中的front-matter 的快捷化输入</p><h2 id="front-matter-的格式如下："><a href="#front-matter-的格式如下：" class="headerlink" title="front matter 的格式如下："></a>front matter 的格式如下：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: group</span><br><span class="line">date: 2018.03.21 15:54</span><br><span class="line">layout: links</span><br><span class="line">---</span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="百度输入法是如何实现的"><a href="#百度输入法是如何实现的" class="headerlink" title="百度输入法是如何实现的"></a>百度输入法是如何实现的</h3><p>在外网看到了百度输入法通过构建自定义短语实现了对于front matter 快捷化的输入，自定义短语如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ 1,ifm=#&#123;Hexo front-matter&#125;#---</span><br><span class="line">$ \title:</span><br><span class="line">$ \id: $(month_mm)$(day_dd)$(fullhour)$(minute)$(second)</span><br><span class="line">$ \date: $(year)-$(month_mm)-$(day_dd) $(fullhour):$(minute):$(second)</span><br><span class="line">$ \updated: $(year)-$(month_mm)-$(day_dd) $(fullhour):$(minute):$(second)</span><br><span class="line">$ \categories:</span><br><span class="line">$ \tags:</span><br><span class="line">$ \permalink: https://likianta.coding.me/2018/category/$(month_mm)$(day_dd)$(fullhour)$(minute)$(second)/</span><br><span class="line">$ \---</span><br></pre></td></tr></table></figure></p><p>通过使用上面的自定义短语实现了对于日期时间以及内容的动态化快捷录入，那么直接复制到搜狗输入法里面是不可以的，两者对于自定义短语的使用有着一定的不同，因此，搜狗输入法如何能够进行快捷的对于front matter 的录入呢？</p><h3 id="搜狗输入法中是如何实现的"><a href="#搜狗输入法中是如何实现的" class="headerlink" title="搜狗输入法中是如何实现的"></a>搜狗输入法中是如何实现的</h3><p>右键属性设置-&gt;高级-&gt;自定义短语设置-&gt;直接编辑配置文件-&gt;最后一行添加以下自定义配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ ifm,1=</span><br><span class="line">$ #---</span><br><span class="line">$ title:</span><br><span class="line">$ date: $year.$month_mm.$day_dd $fullhour:$minute</span><br><span class="line">$ tags:</span><br><span class="line">$ -</span><br><span class="line">$ categories:</span><br><span class="line">$ thumbnail:</span><br><span class="line">$ ---</span><br></pre></td></tr></table></figure><p>以上</p>]]></content>
+      
+      <categories>
+          
+          <category> pract </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 练习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>generated from cmd</title>
+      <link href="/2018/03/21/generated-from-cmd/"/>
+      <url>/2018/03/21/generated-from-cmd/</url>
+      <content type="html"><![CDATA[<h2 id="第一个Markdown"><a href="#第一个Markdown" class="headerlink" title="第一个Markdown"></a>第一个Markdown</h2><p>我的第一个markdown<br>不对<br>算上about应当是第二个markdown<br>算了<br>就当是第一个好了<br>也没有什么格式在里面<br>就这样吧<br>The end</p>]]></content>
+      
+      <categories>
+          
+          <category> pract </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 练习 </tag>
+            
+        </tags>
       
     </entry>
     

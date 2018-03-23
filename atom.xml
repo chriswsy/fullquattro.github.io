@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fullquattro.github.io/"/>
-  <updated>2018-03-23T07:57:45.199Z</updated>
+  <updated>2018-03-23T09:01:45.501Z</updated>
   <id>http://fullquattro.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>尝试hexo主题melody附带创建slide</title>
+    <link href="http://fullquattro.github.io/2018/03/23/slides-test/"/>
+    <id>http://fullquattro.github.io/2018/03/23/slides-test/</id>
+    <published>2018-03-23T08:52:00.000Z</published>
+    <updated>2018-03-23T09:01:45.501Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="hexo-theme-melody-v1-5"><a href="#hexo-theme-melody-v1-5" class="headerlink" title="hexo-theme-melody v1.5"></a>hexo-theme-melody <small>v1.5</small></h2><!-- .slide: data-background="#222" --><p>##data-background=”XXX”可以调整slide的背景颜色</p><!-- .slide: data-transition="concave" data-background="#C7916B" --><h2 id="data-transition-”XXX”可以调整slide切换动画"><a href="#data-transition-”XXX”可以调整slide切换动画" class="headerlink" title="data-transition=”XXX”可以调整slide切换动画"></a>data-transition=”XXX”可以调整slide切换动画</h2><!-- .slide: data-transition="fade" data-background="#00C4B6" --><p>##最后一页</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;hexo-theme-melody-v1-5&quot;&gt;&lt;a href=&quot;#hexo-theme-melody-v1-5&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-melody v1.5&quot;&gt;&lt;/a&gt;hexo-theme-melody &lt;s
+      
+    
+    </summary>
+    
+      <category term="pract" scheme="http://fullquattro.github.io/categories/pract/"/>
+    
+    
+      <category term="随笔" scheme="http://fullquattro.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -34,6 +59,85 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>使用Hexo部署静态网站到GitHub以及Coding</title>
+    <link href="http://fullquattro.github.io/2018/03/22/Deploy/"/>
+    <id>http://fullquattro.github.io/2018/03/22/Deploy/</id>
+    <published>2018-03-22T06:21:00.000Z</published>
+    <updated>2018-03-23T06:09:59.331Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="利用Hexo部署个人静态网站到Github以及Coding上"><a href="#利用Hexo部署个人静态网站到Github以及Coding上" class="headerlink" title="利用Hexo部署个人静态网站到Github以及Coding上"></a>利用Hexo部署个人静态网站到Github以及Coding上</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;利用Hexo部署个人静态网站到Github以及Coding上&quot;&gt;&lt;a href=&quot;#利用Hexo部署个人静态网站到Github以及Coding上&quot; class=&quot;headerlink&quot; title=&quot;利用Hexo部署个人静态网站到Github以及Coding上&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="pract" scheme="http://fullquattro.github.io/categories/pract/"/>
+    
+    
+      <category term="随笔" scheme="http://fullquattro.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="教程" scheme="http://fullquattro.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搜狗输入法实现自定义短语快捷输入front-matter</title>
+    <link href="http://fullquattro.github.io/2018/03/22/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD/"/>
+    <id>http://fullquattro.github.io/2018/03/22/搜狗输入法自定义短语/</id>
+    <published>2018-03-22T03:59:00.000Z</published>
+    <updated>2018-03-23T07:16:14.764Z</updated>
+    
+    <content type="html"><![CDATA[<p>搜狗输入法如何使用自定义短语实现Hexo 搭建网页过程中的front-matter 的快捷化输入</p><h2 id="front-matter-的格式如下："><a href="#front-matter-的格式如下：" class="headerlink" title="front matter 的格式如下："></a>front matter 的格式如下：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: group</span><br><span class="line">date: 2018.03.21 15:54</span><br><span class="line">layout: links</span><br><span class="line">---</span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="百度输入法是如何实现的"><a href="#百度输入法是如何实现的" class="headerlink" title="百度输入法是如何实现的"></a>百度输入法是如何实现的</h3><p>在外网看到了百度输入法通过构建自定义短语实现了对于front matter 快捷化的输入，自定义短语如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ 1,ifm=#&#123;Hexo front-matter&#125;#---</span><br><span class="line">$ \title:</span><br><span class="line">$ \id: $(month_mm)$(day_dd)$(fullhour)$(minute)$(second)</span><br><span class="line">$ \date: $(year)-$(month_mm)-$(day_dd) $(fullhour):$(minute):$(second)</span><br><span class="line">$ \updated: $(year)-$(month_mm)-$(day_dd) $(fullhour):$(minute):$(second)</span><br><span class="line">$ \categories:</span><br><span class="line">$ \tags:</span><br><span class="line">$ \permalink: https://likianta.coding.me/2018/category/$(month_mm)$(day_dd)$(fullhour)$(minute)$(second)/</span><br><span class="line">$ \---</span><br></pre></td></tr></table></figure></p><p>通过使用上面的自定义短语实现了对于日期时间以及内容的动态化快捷录入，那么直接复制到搜狗输入法里面是不可以的，两者对于自定义短语的使用有着一定的不同，因此，搜狗输入法如何能够进行快捷的对于front matter 的录入呢？</p><h3 id="搜狗输入法中是如何实现的"><a href="#搜狗输入法中是如何实现的" class="headerlink" title="搜狗输入法中是如何实现的"></a>搜狗输入法中是如何实现的</h3><p>右键属性设置-&gt;高级-&gt;自定义短语设置-&gt;直接编辑配置文件-&gt;最后一行添加以下自定义配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ ifm,1=</span><br><span class="line">$ #---</span><br><span class="line">$ title:</span><br><span class="line">$ date: $year.$month_mm.$day_dd $fullhour:$minute</span><br><span class="line">$ tags:</span><br><span class="line">$ -</span><br><span class="line">$ categories:</span><br><span class="line">$ thumbnail:</span><br><span class="line">$ ---</span><br></pre></td></tr></table></figure><p>以上</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搜狗输入法如何使用自定义短语实现Hexo 搭建网页过程中的front-matter 的快捷化输入&lt;/p&gt;
+&lt;h2 id=&quot;front-matter-的格式如下：&quot;&gt;&lt;a href=&quot;#front-matter-的格式如下：&quot; class=&quot;headerlink&quot; title=&quot;front matter 的格式如下：&quot;&gt;&lt;/a&gt;front matter 的格式如下：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title: group&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 2018.03.21 15:54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;layout: links&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="pract" scheme="http://fullquattro.github.io/categories/pract/"/>
+    
+    
+      <category term="随笔" scheme="http://fullquattro.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="练习" scheme="http://fullquattro.github.io/tags/%E7%BB%83%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>generated from cmd</title>
+    <link href="http://fullquattro.github.io/2018/03/21/generated-from-cmd/"/>
+    <id>http://fullquattro.github.io/2018/03/21/generated-from-cmd/</id>
+    <published>2018-03-21T08:13:00.000Z</published>
+    <updated>2018-03-23T06:10:15.180Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一个Markdown"><a href="#第一个Markdown" class="headerlink" title="第一个Markdown"></a>第一个Markdown</h2><p>我的第一个markdown<br>不对<br>算上about应当是第二个markdown<br>算了<br>就当是第一个好了<br>也没有什么格式在里面<br>就这样吧<br>The end</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;第一个Markdown&quot;&gt;&lt;a href=&quot;#第一个Markdown&quot; class=&quot;headerlink&quot; title=&quot;第一个Markdown&quot;&gt;&lt;/a&gt;第一个Markdown&lt;/h2&gt;&lt;p&gt;我的第一个markdown&lt;br&gt;不对&lt;br&gt;算上about应当是第
+      
+    
+    </summary>
+    
+      <category term="pract" scheme="http://fullquattro.github.io/categories/pract/"/>
+    
+    
+      <category term="随笔" scheme="http://fullquattro.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="练习" scheme="http://fullquattro.github.io/tags/%E7%BB%83%E4%B9%A0/"/>
     
   </entry>
   
