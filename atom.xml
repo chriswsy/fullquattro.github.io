@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fullquattro.github.io/"/>
-  <updated>2018-03-23T09:01:45.501Z</updated>
+  <updated>2018-03-23T09:54:13.576Z</updated>
   <id>http://fullquattro.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://fullquattro.github.io/2018/03/23/slides-test/"/>
     <id>http://fullquattro.github.io/2018/03/23/slides-test/</id>
     <published>2018-03-23T08:52:00.000Z</published>
-    <updated>2018-03-23T09:01:45.501Z</updated>
+    <updated>2018-03-23T09:54:13.576Z</updated>
     
     <content type="html"><![CDATA[<h2 id="hexo-theme-melody-v1-5"><a href="#hexo-theme-melody-v1-5" class="headerlink" title="hexo-theme-melody v1.5"></a>hexo-theme-melody <small>v1.5</small></h2><!-- .slide: data-background="#222" --><p>##data-background=”XXX”可以调整slide的背景颜色</p><!-- .slide: data-transition="concave" data-background="#C7916B" --><h2 id="data-transition-”XXX”可以调整slide切换动画"><a href="#data-transition-”XXX”可以调整slide切换动画" class="headerlink" title="data-transition=”XXX”可以调整slide切换动画"></a>data-transition=”XXX”可以调整slide切换动画</h2><!-- .slide: data-transition="fade" data-background="#00C4B6" --><p>##最后一页</p>]]></content>
     
