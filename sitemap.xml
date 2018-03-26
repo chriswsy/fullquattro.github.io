@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://fullquattro.github.io/2018/03/23/slides-test/</loc>
+    <loc>http://fullquattro.github.io/2018/03/22/Deploy/</loc>
     
-    <lastmod>2018-03-23T09:54:13.576Z</lastmod>
+    <lastmod>2018-03-26T04:07:48.498Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fullquattro.github.io/2018/03/22/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD/</loc>
+    
+    <lastmod>2018-03-26T03:20:15.373Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://fullquattro.github.io/gallery/index.html</loc>
     
-    <lastmod>2018-03-23T09:54:00.982Z</lastmod>
+    <lastmod>2018-03-26T02:40:43.599Z</lastmod>
     
   </url>
   
@@ -40,27 +47,6 @@
     <loc>http://fullquattro.github.io/2018/03/23/hello-world/</loc>
     
     <lastmod>2018-03-23T07:57:45.199Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fullquattro.github.io/2018/03/22/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD/</loc>
-    
-    <lastmod>2018-03-23T07:16:14.764Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fullquattro.github.io/2018/03/21/generated-from-cmd/</loc>
-    
-    <lastmod>2018-03-23T06:10:15.180Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fullquattro.github.io/2018/03/22/Deploy/</loc>
-    
-    <lastmod>2018-03-23T06:09:59.331Z</lastmod>
     
   </url>
   

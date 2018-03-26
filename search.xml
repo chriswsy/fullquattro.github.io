@@ -3,27 +3,6 @@
   
     
     <entry>
-      <title>尝试hexo主题melody附带创建slide</title>
-      <link href="/2018/03/23/slides-test/"/>
-      <url>/2018/03/23/slides-test/</url>
-      <content type="html"><![CDATA[<h2 id="hexo-theme-melody-v1-5"><a href="#hexo-theme-melody-v1-5" class="headerlink" title="hexo-theme-melody v1.5"></a>hexo-theme-melody <small>v1.5</small></h2><!-- .slide: data-background="#222" --><p>##data-background=”XXX”可以调整slide的背景颜色</p><!-- .slide: data-transition="concave" data-background="#C7916B" --><h2 id="data-transition-”XXX”可以调整slide切换动画"><a href="#data-transition-”XXX”可以调整slide切换动画" class="headerlink" title="data-transition=”XXX”可以调整slide切换动画"></a>data-transition=”XXX”可以调整slide切换动画</h2><!-- .slide: data-transition="fade" data-background="#00C4B6" --><p>##最后一页</p>]]></content>
-      
-      <categories>
-          
-          <category> pract </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 随笔 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>Hello World</title>
       <link href="/2018/03/23/hello-world/"/>
       <url>/2018/03/23/hello-world/</url>
@@ -36,11 +15,11 @@
       <title>使用Hexo部署静态网站到GitHub以及Coding</title>
       <link href="/2018/03/22/Deploy/"/>
       <url>/2018/03/22/Deploy/</url>
-      <content type="html"><![CDATA[<h2 id="利用Hexo部署个人静态网站到Github以及Coding上"><a href="#利用Hexo部署个人静态网站到Github以及Coding上" class="headerlink" title="利用Hexo部署个人静态网站到Github以及Coding上"></a>利用Hexo部署个人静态网站到Github以及Coding上</h2>]]></content>
+      <content type="html"><![CDATA[<h2 id="利用Hexo部署个人静态网站到Github以及Coding上"><a href="#利用Hexo部署个人静态网站到Github以及Coding上" class="headerlink" title="利用Hexo部署个人静态网站到Github以及Coding上"></a>利用Hexo部署个人静态网站到Github以及Coding上</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a></h3><p>Hexo是一种高效的快速构建个人博客的博客框架。Hexo 利用的是Markdown语言进行博客的录入，通过简单几步搭建个人的博客。</p><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></h3><p>GitHub是利用Git作为唯一版本库格式进行托管的面向开源以及私有软件项目的托管平台，为了实现Hexo搭建个人网站，使用GitHub对个人博客的代码以及地址进行托管无疑是非常有利的。</p><h3 id="Coding"><a href="#Coding" class="headerlink" title="Coding"></a><a href="https://coding.net/" target="_blank" rel="noopener">Coding</a></h3><p>Coding作为非常优秀的国内的代码托管仓库，在国内GitHub常常出现被墙掉以及访问缓慢的情况下，使用Coding进行网站地址的托管以便于国内的访问。</p><h3 id="如何搭建个人网站"><a href="#如何搭建个人网站" class="headerlink" title="如何搭建个人网站"></a>如何搭建个人网站</h3><h4 id="1-注册GitHub以及Coding账号"><a href="#1-注册GitHub以及Coding账号" class="headerlink" title="1.注册GitHub以及Coding账号"></a>1.注册GitHub以及Coding账号</h4><h4 id="2-下载并安装Git-Bush以及Node-js"><a href="#2-下载并安装Git-Bush以及Node-js" class="headerlink" title="2.下载并安装Git Bush以及Node.js"></a>2.下载并安装Git Bush以及Node.js</h4><p>下载地址：<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git Bush</a>  |  <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p><ul><li>Git Bush是利用Git进行操作命令的工具，安装包下载后打开一路点击下一步就可以了。</li><li>之后安装Node.js，Hexo是基于nodeJS环境的静态博客，下载时建议选择LTS版本即可（长期支持的稳定版，Current版本是最新版）安装过程中在Custom Step选择 Add to PATH，其余一路下一步即可。<br><img src="http://ww1.sinaimg.cn/large/b1dfad9dly1fpq2zhqqoej20dv0atdg5.jpg" alt="Node.js:Custom Step"><h4 id="3-命令安装Hexo"><a href="#3-命令安装Hexo" class="headerlink" title="3.命令安装Hexo"></a>3.命令安装Hexo</h4></li><li>选择一个个人网站存储的位置，新建一个文件夹命名为“blog”（用于存储所有博客里的内容，当然其他英文名字都可以）</li><li>使用git bush 或是cmd 命令转移到该博客文件夹里<figure class="highlight plain"><figcaption><span>blog```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- 输入命令```npm install hexo-cli g```进行Hexo的安装</span><br><span class="line">- 输入命令```hexo init```初始化当前文件夹为Hexo搭建静态博客的位置</span><br><span class="line">- 输入命令```npm install```进行Hexo几本扩展插件的安装</span><br><span class="line">- 输入以下命令安装其他Hexo扩展插件</span><br></pre></td></tr></table></figure></li></ul><p>npm install hexo-server –save<br>npm install hexo-admin –save<br>npm install hexo-generator-archive –save<br>npm install hexo-generator-feed –save<br>npm install hexo-generator-search –save<br>npm install hexo-generator-tag –save<br>npm install hexo-deployer-git –save<br>npm install hexo-generator-sitemap –save<br><code>`</code></p><ul><li>至此Hexo的基本安装完成</li></ul><h4 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h4>]]></content>
       
       <categories>
           
-          <category> pract </category>
+          <category> 练教程 </category>
           
       </categories>
       
@@ -49,7 +28,9 @@
             
             <tag> 随笔 </tag>
             
-            <tag> 教程 </tag>
+            <tag> Hexo </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
@@ -63,7 +44,7 @@
       
       <categories>
           
-          <category> pract </category>
+          <category> 教程 </category>
           
       </categories>
       
@@ -72,30 +53,9 @@
             
             <tag> 随笔 </tag>
             
-            <tag> 练习 </tag>
+            <tag> Hexo </tag>
             
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>generated from cmd</title>
-      <link href="/2018/03/21/generated-from-cmd/"/>
-      <url>/2018/03/21/generated-from-cmd/</url>
-      <content type="html"><![CDATA[<h2 id="第一个Markdown"><a href="#第一个Markdown" class="headerlink" title="第一个Markdown"></a>第一个Markdown</h2><p>我的第一个markdown<br>不对<br>算上about应当是第二个markdown<br>算了<br>就当是第一个好了<br>也没有什么格式在里面<br>就这样吧<br>The end</p>]]></content>
-      
-      <categories>
-          
-          <category> pract </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 随笔 </tag>
-            
-            <tag> 练习 </tag>
+            <tag> Markdown </tag>
             
         </tags>
       
