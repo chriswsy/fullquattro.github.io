@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://fullquattro.github.io/gallery/index.html</loc>
+    
+    <lastmod>2018-03-27T02:39:11.736Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fullquattro.github.io/2018/03/20/hello-world/</loc>
+    
+    <lastmod>2018-03-27T01:50:44.234Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://fullquattro.github.io/2018/03/22/Using%20Sogou%20to%20Input%20FM%20ASAP/</loc>
     
     <lastmod>2018-03-26T07:36:57.823Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>http://fullquattro.github.io/2018/03/22/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding/</loc>
     
     <lastmod>2018-03-26T07:32:53.126Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fullquattro.github.io/2018/03/20/hello-world/</loc>
-    
-    <lastmod>2018-03-26T07:05:01.936Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fullquattro.github.io/gallery/index.html</loc>
-    
-    <lastmod>2018-03-26T02:40:43.599Z</lastmod>
     
   </url>
   
