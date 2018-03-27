@@ -1,0 +1,514 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="This is my movie title"><meta name="keywords" content=""><meta name="author" content="ChrisWang,undefined"><meta name="copyright" content="ChrisWang"><title>This is my movie title | CHRIS&#x306E;Blog</title><link rel="shortcut icon" href="/uploads/favicon.ico"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css?version=1.5.1"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-116310439-1', 'auto');
+ga('send', 'pageview');</script><script>var GLOBAL = { 
+  root: '/',
+  algolia: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  localSearch: {"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}"},"path":"search.xml"}
+} </script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="author-info"><div class="author-info__avatar text-center"><img src="/uploads/avatar.png"></div><div class="author-info__name text-center">ChrisWang</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">3</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">3</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">1</span></a></div></div></div><nav class="no-bg" id="nav" style="background-image: url(true)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">CHRIS&#x306E;Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/about">About</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/gallery">Gallery</a><a class="site-page" href="/books">Books</a><a class="site-page" href="/movies">Movies</a></span></div><div id="site-info"><div id="site-title">CHRIS&#x306E;Blog</div><div id="site-sub-title">Those what does not kill us make us stronger.</div><div id="site-social-icons"> <a class="social-icon" href="https://github.com/fullquattro" target="_blank"><i class="fa fa-github"></i></a><a class="social-icon" href="https://www.facebook.com/shuoyang.wang" target="_blank"><i class="fa fa-facebook"></i></a><a class="social-icon" href="https://twitter.com/WangShuoyang" target="_blank"><i class="fa fa-twitter"></i></a><a class="social-icon" href="https://www.instagram.com/chriswangsy/" target="_blank"><i class="fa fa-instagram"></i></a><a class="social-icon" href="https://weibo.com/2984226205" target="_blank"><i class="fa fa-weibo"></i></a><a class="social-icon search"><i class="fa fa-search"></i></a></div></div><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local Search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><hr class="local-search-stats__hr">Powered by <span style="color: #49B1F5">hexo-generator-search</span></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></nav><div id="content-outer"><div class="layout" id="content-inner"><article id="page"><h1>This is my movie title</h1><blockquote>
+    <p>This is my movie quote</p>
+</blockquote>
+
+<style>
+    
+.hexo-douban-tabs {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.hexo-douban-tab {
+    padding: 5px;
+}
+
+.hexo-douban-active {
+    background: #657b83;
+    color: #fff;
+}
+
+.hexo-douban-item {
+    padding-bottom: 10px;
+    position: relative;
+    clear: both;
+    min-height: 170px;
+    padding: 10px 0;
+    border-bottom: 1px #ddd solid;
+}
+
+@media screen and (max-width: 600px) {
+    .hexo-douban-item {
+        width: 100%;
+    }
+}
+
+.hexo-douban-picture {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100px;
+}
+
+.hexo-douban-info {
+    padding-left: 120px;
+}
+
+.hexo-douban-meta {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.hexo-douban-comments {
+    font-size: 12px;
+}
+
+.hexo-douban-pagination {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hexo-douban-button {
+    padding: 5px;
+}
+
+.hexo-douban-button:hover {
+    background: #657b83;
+    color: #fff;
+}
+
+.hexo-douban-hide {
+    display: none;
+}
+
+.hexo-douban-show {
+    display: block;
+}
+
+
+</style>
+
+<div class="hexo-douban-tabs">
+    <a class="hexo-douban-tab" id="hexo-douban-tab1" href="javascript:;" target="_blank" rel="external">
+        &#x5728;&#x770B;
+        (0)</a>
+    <a class="hexo-douban-tab" id="hexo-douban-tab2" href="javascript:;" target="_blank" rel="external">
+        &#x60F3;&#x770B;
+        (2)</a>
+    <a class="hexo-douban-tab" id="hexo-douban-tab3" href="javascript:;" target="_blank" rel="external">
+        &#x5DF2;&#x770B;
+        (18)</a>
+</div>
+<div>
+    <div id="hexo-douban-item1">
+        
+        <div class="hexo-douban-pagination">
+    <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;"> &#x9996;&#x9875;</a>
+    <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">&#x4E0A;&#x4E00;&#x9875;</a>
+    <span class="hexo-douban-pagenum">2 / 3</span>
+    <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">&#x4E0B;&#x4E00;&#x9875;</a>
+    <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">&#x5C3E;&#x9875;</a>
+</div>
+    </div>
+    <div id="hexo-douban-item2">
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2417948644.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25900945/">&#x7F8E;&#x5973;&#x4E0E;&#x91CE;&#x517D; / Beauty and the Beast</a>
+        </div>
+        <div class="hexo-douban-meta">2017-03-17(&#x4E2D;&#x56FD;&#x5927;&#x9646;) / 2017-03-17(&#x7F8E;&#x56FD;) / &#x827E;&#x739B;&#xB7;&#x6C83;&#x68EE; / &#x4E39;&#xB7;&#x53F2;&#x8482;&#x6587;&#x65AF; / &#x5362;&#x514B;&#xB7;&#x4F0A;&#x4E07;&#x65AF; / &#x51EF;&#x6587;&#xB7;&#x514B;&#x83B1;&#x6069; / &#x4E54;&#x4EC0;&#xB7;&#x52A0;&#x5FB7; / &#x4F0A;&#x4E07;&#xB7;&#x9EA6;&#x514B;&#x683C;&#x96F7;&#x683C; / &#x4F0A;&#x6069;&#xB7;&#x9EA6;&#x514B;&#x83B1;&#x6069; / &#x827E;&#x739B;&#xB7;&#x6C64;&#x666E;&#x68EE; / &#x65AF;&#x5766;&#x5229;&#xB7;&#x56FE;&#x9F50; / &#x53E4;&#x53E4;&#xB7;&#x59C6;&#x5DF4;&#x5854;-&#x52B3; / &#x5965;&#x5FB7;&#x62C9;&#xB7;&#x9EA6;&#x514B;&#x5510;&#x7EB3; / &#x5185;&#x68EE;&#xB7;&#x9EA6;&#x514B; / &#x54C8;&#x8482;&#xB7;&#x83AB;&#x62C9;&#x6C49; / &#x8FC8;&#x514B;&#x5C14;&#xB7;&#x5409;&#x666E;&#x68EE; / &#x6C34;&#x91CE;&#x7D22;&#x8BFA;&#x5A05; / &#x4EA8;&#x5229;&#xB7;&#x52A0;&#x52D2;&#x7279; / &#x6234;&#x5C14;&#xB7;&#x5E03;&#x5170;&#x65AF;&#x987F; / &#x7F8E;&#x56FD; / &#x6BD4;&#x5C14;&#xB7;&#x5EB7;&#x987F; / 129&#x5206;&#x949F; / &#x7F8E;&#x5973;&#x4E0E;&#x91CE;&#x517D; / &#x7231;&#x60C5; / &#x5947;&#x5E7B; / &#x6B4C;&#x821E; / &#x65AF;&#x8482;&#x82AC;&#xB7;&#x5207;&#x6CE2;&#x65AF;&#x57FA; Stephen Chbosky / &#x57C3;&#x6587;&#xB7;&#x65AF;&#x5F7C;&#x91CC;&#x5965;&#x6258;&#x666E;&#x6D1B;&#x65AF; Evan Spiliotopoulos / &#x7433;&#x8FBE;&#xB7;&#x4F0D;&#x5C14;&#x8299;&#x987F; Linda Woolverton / Jeanne-Marie Leprince de Beaumont / &#x82F1;&#x8BED;</div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2417949761.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/26145033/">&#x4E50;&#x9AD8;&#x8759;&#x8760;&#x4FA0;&#x5927;&#x7535;&#x5F71; / The LEGO Batman Movie</a>
+        </div>
+        <div class="hexo-douban-meta">2017-02-10(&#x7F8E;&#x56FD;) / 2017-03-03(&#x4E2D;&#x56FD;&#x5927;&#x9646;) / &#x5A01;&#x5C14;&#xB7;&#x963F;&#x5948;&#x7279; / &#x7F57;&#x838E;&#x91CC;&#x5965;&#xB7;&#x9053;&#x68EE; / &#x62C9;&#x5C14;&#x592B;&#xB7;&#x8D39;&#x56E0;&#x65AF; / &#x8FC8;&#x514B;&#x5C14;&#xB7;&#x585E;&#x62C9; / &#x624E;&#x514B;&#xB7;&#x52A0;&#x5229;&#x51E1;&#x7EB3;&#x57FA;&#x65AF; / &#x73CD;&#x59AE;&#xB7;&#x65AF;&#x857E;&#x7279; / &#x82CF;&#x73CA;&#xB7;&#x672C;&#x5C3C;&#x7279; / &#x739B;&#x4E3D;&#x4E9A;&#xB7;&#x51EF;&#x8389; / &#x67E5;&#x5B81;&#xB7;&#x5854;&#x56FE;&#x59C6; / &#x4E54;&#x7EB3;&#xB7;&#x5E0C;&#x5C14; / &#x4E9A;&#x5F53;&#xB7;&#x5FB7;&#x7EF4;&#x5C3C; / &#x67EF;&#x5357;&#xB7;&#x5965;&#x5E03;&#x83B1;&#x6069; / &#x9053;&#x683C;&#xB7;&#x672C;&#x68EE; / &#x6BD4;&#x5229;&#xB7;&#x8FEA;&#xB7;&#x5A01;&#x5EC9;&#x59C6;&#x65AF; / &#x6770;&#x68EE;&#xB7;&#x66FC;&#x5179;&#x6C83;&#x514B;&#x65AF; / &#x827E;&#x8FEA;&#xB7;&#x4F0A;&#x624E;&#x5FB7; / &#x8D5B;&#x65AF;&#xB7;&#x683C;&#x6797; / &#x4F50;&#x4F0A;&#xB7;&#x514B;&#x7F57;&#x7EF4;&#x5179; / &#x51EF;&#x7279;&#xB7;&#x7C73;&#x5E93;&#x5947; / &#x745E;&#x742A;&#xB7;&#x7433;&#x5FB7;&#x8D6B;&#x59C6; / &#x6770;&#x6885;&#x5948;&#xB7;&#x514B;&#x83B1;&#x95E8;&#x7279; / &#x827E;&#x4E3D;&#xB7;&#x574E;&#x4F2F;&#x5C14; / &#x7F8E;&#x56FD; / &#x514B;&#x91CC;&#x65AF;&#xB7;&#x9EA6;&#x51EF; / 105&#x5206;&#x949F; / &#x4E50;&#x9AD8;&#x8759;&#x8760;&#x4FA0;&#x5927;&#x7535;&#x5F71; / &#x559C;&#x5267; / &#x52A8;&#x4F5C; / &#x52A8;&#x753B; / &#x5192;&#x9669; / &#x8D5B;&#x65AF;&#xB7;&#x683C;&#x96F7;&#x5384;&#x59C6;-&#x53F2;&#x5BC6;&#x65AF; Seth Grahame-Smith / &#x514B;&#x91CC;&#x65AF;&#xB7;&#x9EA6;&#x514B;&#x7EB3; Chris McKenna / &#x57C3;&#x91CC;&#x514B;&#xB7;&#x8428;&#x9ED8;&#x65AF; Erik Sommers / &#x8D3E;&#x91CC;&#x5FB7;&#xB7;&#x65AF;&#x7279;&#x6069; Jared Stern / &#x7EA6;&#x7FF0;&#xB7;&#x60E0;&#x5EF7;&#x987F; John Whittington / &#x9C8D;&#x52C3;&#xB7;&#x51EF;&#x6069; Bob Kane / &#x6BD4;&#x5C14;&#xB7;&#x82AC;&#x683C; Bill Finger / &#x6770;&#x91CC;&#xB7;&#x897F;&#x683C;&#x5C14; Jerry Siegel / &#x4E54;&#xB7;&#x8212;&#x65AF;&#x7279; Joe Shuster / &#x82F1;&#x8BED;</div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-pagination">
+    <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;"> &#x9996;&#x9875;</a>
+    <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">&#x4E0A;&#x4E00;&#x9875;</a>
+    <span class="hexo-douban-pagenum">2 / 3</span>
+    <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">&#x4E0B;&#x4E00;&#x9875;</a>
+    <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">&#x5C3E;&#x9875;</a>
+</div>
+    </div>
+    <div id="hexo-douban-item3">
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2436030518.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/26309788/">&#x91D1;&#x521A;&#xFF1A;&#x9AB7;&#x9AC5;&#x5C9B; / Kong: Skull Island</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2606;&#x2606; &#x8FD8;&#x884C; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2431980130.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25765735/">&#x91D1;&#x521A;&#x72FC;3&#xFF1A;&#x6B8A;&#x6B7B;&#x4E00;&#x6218; / Logan</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &#x529B;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2403049086.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25894431/">&#x661F;&#x7403;&#x5927;&#x6218;&#x5916;&#x4F20;&#xFF1A;&#x4FA0;&#x76D7;&#x4E00;&#x53F7; / Rogue One: A Star Wars Story</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2388501883.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/3025375/">&#x5947;&#x5F02;&#x535A;&#x58EB; / Doctor Strange</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &#x529B;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2393044761.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25921812/">&#x9A74;&#x5F97;&#x6C34;</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2403319543.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/26416603/">&#x8428;&#x5229;&#x673A;&#x957F; / Sully</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2380677316.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25815034/">&#x6E44;&#x516C;&#x6CB3;&#x884C;&#x52A8;</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2606;&#x2606; &#x8FD8;&#x884C; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2392444121.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25726614/">&#x795E;&#x5947;&#x52A8;&#x7269;&#x5728;&#x54EA;&#x91CC; / Fantastic Beasts and Where to Find Them</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &#x529B;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2398141939.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/26325320/">&#x8840;&#x6218;&#x94A2;&#x952F;&#x5CAD; / Hacksaw Ridge</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/6982558/">&#x957F;&#x57CE; / The Great Wall</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2606;&#x2606;&#x2606; &#x8F83;&#x5DEE; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2410576676.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/3434070/">&#x592A;&#x7A7A;&#x65C5;&#x5BA2; / Passengers</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2432597986.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/11526817/">&#x523A;&#x5BA2;&#x4FE1;&#x6761; / Assassin&apos;s Creed</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2606;&#x2606; &#x8FD8;&#x884C; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2411622421.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/21324900/">&#x964D;&#x4E34; / Arrival</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2429713841.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/20471852/">&#x751F;&#x5316;&#x5371;&#x673A;&#xFF1A;&#x7EC8;&#x7AE0; / Resident Evil: The Final Chapter</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2606;&#x2606; &#x8FD8;&#x884C; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2425658570.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/25934014/">&#x7231;&#x4E50;&#x4E4B;&#x57CE; / La La Land</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2498971355.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/26580232/">&#x770B;&#x4E0D;&#x89C1;&#x7684;&#x5BA2;&#x4EBA; / Contratiempo</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &#x529B;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2444256500.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/26260853/">&#x901F;&#x5EA6;&#x4E0E;&#x6FC0;&#x60C5;8 / The Fate of the Furious</a>
+        </div>
+        <div class="hexo-douban-meta">2017-04-27 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2606; &#x63A8;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2233706697.jpg"></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://movie.douban.com/subject/23761370/">&#x901F;&#x5EA6;&#x4E0E;&#x6FC0;&#x60C5;7 / Furious 7</a>
+        </div>
+        <div class="hexo-douban-meta">2015-04-19 /  / &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &#x529B;&#x8350; </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-pagination">
+    <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;"> &#x9996;&#x9875;</a>
+    <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">&#x4E0A;&#x4E00;&#x9875;</a>
+    <span class="hexo-douban-pagenum">2 / 3</span>
+    <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">&#x4E0B;&#x4E00;&#x9875;</a>
+    <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">&#x5C3E;&#x9875;</a>
+</div>
+    </div>
+</div>
+
+<script>
+    /**
+ * Created by myths on 18-2-8.
+ */
+
+Element.prototype.siblings = function () {
+    var siblingElement = [];
+    var sibs = this.parentNode.children;
+    for (var i = 0; i < sibs.length; i++) {
+        if (sibs[i] !== this) {
+            siblingElement.push(sibs[i]);
+        }
+    }
+    return siblingElement;
+};
+function tabClick() {
+    //修改标签样式
+    this.classList.add('hexo-douban-active');
+    var sibs = this.siblings();
+    for (var j = 0; j < sibs.length; j++) {
+        sibs[j].classList.remove('hexo-douban-active');
+    }
+    //显示对应板块
+    var itemId = this.id.replace('tab', 'item');
+    var target = document.getElementById(itemId);
+    target.classList.remove('hexo-douban-hide');
+    target.classList.add('hexo-douban-show');
+    sibs = document.getElementById(itemId).siblings();
+    for (var k = 0; k < sibs.length; k++) {
+        sibs[k].classList.remove('hexo-douban-show');
+        sibs[k].classList.add('hexo-douban-hide');
+    }
+}
+var tabs = document.getElementsByClassName("hexo-douban-tab");
+for (var i = 0; i < tabs.length; i++) {
+    tabs[i].onclick = tabClick;
+    tabs[i].onclick.apply(tabs[i]);
+}
+tabs[2].click();
+    var firstpages = document.getElementsByClassName("hexo-douban-firstpage");
+var previouspages = document.getElementsByClassName("hexo-douban-previouspage");
+var nextpages = document.getElementsByClassName("hexo-douban-nextpage");
+var lastpages = document.getElementsByClassName("hexo-douban-lastpage");
+var pagenums = document.getElementsByClassName("hexo-douban-pagenum");
+
+function makePageNum(num, arr) {
+    return (num + 1) + ' / ' + (Math.ceil(arr.length / 10 === 0 ? 1 : Math.ceil(arr.length / 10)));
+}
+
+function firstBtn() {
+    var sibs = this.parentNode.siblings();
+    displayPage(sibs, 0);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(0, sibs);
+}
+
+function previousBtn() {
+    var sibs = this.parentNode.siblings();
+    var currNum = this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText;
+    currNum = currNum.substr(0, currNum.indexOf('/') - 1);
+    currNum = parseInt(currNum, 10) - 1;
+    if (currNum > 0) {
+        currNum--;
+    }
+    displayPage(sibs, currNum);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(currNum, sibs);
+}
+
+function nextBtn() {
+    var sibs = this.parentNode.siblings();
+    var currNum = this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText;
+    currNum = currNum.substr(0, currNum.indexOf('/') - 1);
+    currNum = parseInt(currNum, 10) - 1;
+    if (currNum < Math.ceil(sibs.length / 10) - 1) {
+        currNum++;
+    }
+    displayPage(sibs, currNum);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(currNum, sibs);
+}
+
+function lastBtn() {
+    var sibs = this.parentNode.siblings();
+    displayPage(sibs, Math.ceil(sibs.length / 10) - 1);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(Math.ceil(sibs.length / 10) - 1 === -1 ? 0 : Math.ceil(sibs.length / 10) - 1, sibs);
+}
+
+function displayPage(arr, num) {
+    for (var i = 0; i < arr.length; i++) {
+        if (Math.floor(i / 10) === num) {
+            arr[i].classList.remove('hexo-douban-hide');
+        } else {
+            arr[i].classList.add('hexo-douban-hide');
+        }
+    }
+}
+
+for (var i = 0; i < firstpages.length; i++) {
+
+    //add listener
+    firstpages[i].onclick = firstBtn;
+    firstpages[i].onclick.apply(firstpages[i]);
+    previouspages[i].onclick = previousBtn;
+    previouspages[i].onclick.apply(previouspages[i]);
+    nextpages[i].onclick = nextBtn;
+    nextpages[i].onclick.apply(nextpages[i]);
+    lastpages[i].onclick = lastBtn;
+    lastpages[i].onclick.apply(lastpages[i]);
+
+    //set page num
+    var size = pagenums[i].parentNode.siblings().length;
+    pagenums[i].innerText = '1 / ' + (Math.ceil(size / 10) === 0 ? 1 : Math.ceil(size / 10));
+    firstpages[i].click();
+}
+
+</script>
+
+</article><nav id="pagination"><div class="pagination"></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&#xA9;2016 - 2018 By ChrisWang</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fa fa-user"></i><span id="busuanzi_value_site_uv"></span><span></span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i><span id="busuanzi_value_site_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.5.1"></script><script src="/js/fancybox.js?version=1.5.1"></script><script src="/js/sidebar.js?version=1.5.1"></script><script src="/js/copy.js?version=1.5.1"></script><script src="/js/fireworks.js?version=1.5.1"></script><script src="/js/transition.js?version=1.5.1"></script><script src="/js/scroll.js?version=1.5.1"></script><script src="/js/head.js?version=1.5.1"></script><script src="/js/search/local-search.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"scale":0.2,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"supersample":2,"position":"right","width":150,"height":300,"hOffset":0,"vOffset":-30},"mobile":{"show":true,"scale":0.1},"react":{"opacityDefault":0.7,"opacityOnHover":0.2}});</script></body></html>
