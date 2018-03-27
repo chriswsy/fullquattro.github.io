@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://fullquattro.github.io/2018/03/22/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding/</loc>
+    
+    <lastmod>2018-03-27T06:35:08.863Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://fullquattro.github.io/gallery/index.html</loc>
     
-    <lastmod>2018-03-27T05:01:15.576Z</lastmod>
+    <lastmod>2018-03-27T05:26:27.997Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>http://fullquattro.github.io/2018/03/20/hello-world/</loc>
     
     <lastmod>2018-03-27T04:59:49.201Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fullquattro.github.io/2018/03/22/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding/</loc>
-    
-    <lastmod>2018-03-27T04:59:30.973Z</lastmod>
     
   </url>
   
