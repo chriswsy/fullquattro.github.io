@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chriswang.tk/"/>
-  <updated>2018-04-08T02:38:23.054Z</updated>
+  <updated>2018-04-08T03:02:41.843Z</updated>
   <id>http://chriswang.tk/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown基本语法</title>
+    <link href="http://chriswang.tk/2018/04/08/MarkdownGrammar/"/>
+    <id>http://chriswang.tk/2018/04/08/MarkdownGrammar/</id>
+    <published>2018-04-08T02:55:00.000Z</published>
+    <updated>2018-04-08T03:02:41.843Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><html><head></head><body><p>Markdown&#x662F;&#x73B0;&#x5728;&#x4E00;&#x79CD;&#x5341;&#x5206;&#x6D41;&#x884C;&#x7684;&#x8BED;&#x6CD5;&#x7ED3;&#x6784;&#xFF0C;&#x53EF;&#x4EE5;&#x66F4;&#x9AD8;&#x6548;&#x7684;&#x8FDB;&#x884C;&#x8BB0;&#x5F55;&#x3002;&#x901A;&#x8FC7;&#x7B80;&#x5355;&#x7684;&#x8BED;&#x6CD5;&#x53EF;&#x4EE5;&#x5BF9;&#x6587;&#x672C;&#x8FDB;&#x884C;&#x7B80;&#x5355;&#x7684;&#x683C;&#x5F0F;&#x6807;&#x8BB0;&#xFF0C;</p><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"scale":0.2,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"supersample":2,"position":"right","width":150,"height":300,"hOffset":0,"vOffset":-170},"mobile":{"show":false,"scale":0.03},"react":{"opacityDefault":0.6,"opacityOnHover":0.3}});</script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://chriswang.tk/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="随笔" scheme="http://chriswang.tk/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Hexo" scheme="http://chriswang.tk/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Hexo部署静态网站 part 2 - 美化个人博客</title>
