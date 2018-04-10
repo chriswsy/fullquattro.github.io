@@ -18,8 +18,8 @@
   
   <entry>
     <title>Emoji表情在Markdown 中的运用</title>
-    <link href="http://chriswang.tk/title.html"/>
-    <id>http://chriswang.tk/title.html</id>
+    <link href="http://chriswang.tk/emoji.html"/>
+    <id>http://chriswang.tk/emoji.html</id>
     <published>2018-04-09T07:01:00.000Z</published>
     <updated>2018-04-09T09:25:35.618Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Markdown基本语法</title>
-    <link href="http://chriswang.tk/title.html"/>
-    <id>http://chriswang.tk/title.html</id>
+    <link href="http://chriswang.tk/MarkdownGrammar.html"/>
+    <id>http://chriswang.tk/MarkdownGrammar.html</id>
     <published>2018-04-08T02:55:00.000Z</published>
     <updated>2018-04-09T09:25:28.842Z</updated>
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>使用Hexo部署静态网站 part 2 - 美化个人博客</title>
-    <link href="http://chriswang.tk/title.html"/>
-    <id>http://chriswang.tk/title.html</id>
+    <link href="http://chriswang.tk/Beautify%20Personal%20Blog.html"/>
+    <id>http://chriswang.tk/Beautify Personal Blog.html</id>
     <published>2018-04-03T03:54:00.000Z</published>
     <updated>2018-04-10T02:47:13.906Z</updated>
     
@@ -104,8 +104,8 @@
   
   <entry>
     <title>使用Hexo部署静态网站 Part 1 - 前期准备以及部署过程</title>
-    <link href="http://chriswang.tk/title.html"/>
-    <id>http://chriswang.tk/title.html</id>
+    <link href="http://chriswang.tk/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding.html"/>
+    <id>http://chriswang.tk/Using Hexo to Deploy Blog on GitHub and Coding.html</id>
     <published>2018-03-22T06:21:00.000Z</published>
     <updated>2018-04-03T03:54:59.418Z</updated>
     
@@ -133,8 +133,8 @@
   
   <entry>
     <title>搜狗输入法实现自定义短语快捷输入front-matter</title>
-    <link href="http://chriswang.tk/title.html"/>
-    <id>http://chriswang.tk/title.html</id>
+    <link href="http://chriswang.tk/Using%20Sogou%20to%20Input%20FM%20ASAP.html"/>
+    <id>http://chriswang.tk/Using Sogou to Input FM ASAP.html</id>
     <published>2018-03-22T03:59:00.000Z</published>
     <updated>2018-03-28T09:35:28.331Z</updated>
     
@@ -160,8 +160,8 @@
   
   <entry>
     <title>Hello world</title>
-    <link href="http://chriswang.tk/title.html"/>
-    <id>http://chriswang.tk/title.html</id>
+    <link href="http://chriswang.tk/hello-world.html"/>
+    <id>http://chriswang.tk/hello-world.html</id>
     <published>2018-03-20T06:46:00.000Z</published>
     <updated>2018-04-03T03:20:59.917Z</updated>
     
