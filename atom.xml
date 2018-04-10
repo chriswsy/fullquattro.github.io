@@ -18,8 +18,8 @@
   
   <entry>
     <title>Emoji表情在Markdown 中的运用</title>
-    <link href="http://chriswang.tk/2018/04/09/emoji/"/>
-    <id>http://chriswang.tk/2018/04/09/emoji/</id>
+    <link href="http://chriswang.tk/title.html"/>
+    <id>http://chriswang.tk/title.html</id>
     <published>2018-04-09T07:01:00.000Z</published>
     <updated>2018-04-09T09:25:35.618Z</updated>
     
@@ -36,16 +36,16 @@
     
       <category term="随笔" scheme="http://chriswang.tk/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
-    
       <category term="Hexo" scheme="http://chriswang.tk/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>Markdown基本语法</title>
-    <link href="http://chriswang.tk/2018/04/08/MarkdownGrammar/"/>
-    <id>http://chriswang.tk/2018/04/08/MarkdownGrammar/</id>
+    <link href="http://chriswang.tk/title.html"/>
+    <id>http://chriswang.tk/title.html</id>
     <published>2018-04-08T02:55:00.000Z</published>
     <updated>2018-04-09T09:25:28.842Z</updated>
     
@@ -62,16 +62,16 @@
     
       <category term="随笔" scheme="http://chriswang.tk/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
-    
       <category term="Hexo" scheme="http://chriswang.tk/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>使用Hexo部署静态网站 part 2 - 美化个人博客</title>
-    <link href="http://chriswang.tk/2018/04/03/Beautify%20Personal%20Blog/"/>
-    <id>http://chriswang.tk/2018/04/03/Beautify Personal Blog/</id>
+    <link href="http://chriswang.tk/title.html"/>
+    <id>http://chriswang.tk/title.html</id>
     <published>2018-04-03T03:54:00.000Z</published>
     <updated>2018-04-10T02:47:13.906Z</updated>
     
@@ -96,16 +96,16 @@
     
       <category term="随笔" scheme="http://chriswang.tk/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
-    
       <category term="Hexo" scheme="http://chriswang.tk/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>使用Hexo部署静态网站 Part 1 - 前期准备以及部署过程</title>
-    <link href="http://chriswang.tk/2018/03/22/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding/"/>
-    <id>http://chriswang.tk/2018/03/22/Using Hexo to Deploy Blog on GitHub and Coding/</id>
+    <link href="http://chriswang.tk/title.html"/>
+    <id>http://chriswang.tk/title.html</id>
     <published>2018-03-22T06:21:00.000Z</published>
     <updated>2018-04-03T03:54:59.418Z</updated>
     
@@ -125,16 +125,16 @@
     
       <category term="随笔" scheme="http://chriswang.tk/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
-    
       <category term="Hexo" scheme="http://chriswang.tk/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>搜狗输入法实现自定义短语快捷输入front-matter</title>
-    <link href="http://chriswang.tk/2018/03/22/Using%20Sogou%20to%20Input%20FM%20ASAP/"/>
-    <id>http://chriswang.tk/2018/03/22/Using Sogou to Input FM ASAP/</id>
+    <link href="http://chriswang.tk/title.html"/>
+    <id>http://chriswang.tk/title.html</id>
     <published>2018-03-22T03:59:00.000Z</published>
     <updated>2018-03-28T09:35:28.331Z</updated>
     
@@ -152,16 +152,16 @@
     
       <category term="随笔" scheme="http://chriswang.tk/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
-    
       <category term="Hexo" scheme="http://chriswang.tk/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://chriswang.tk/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>Hello world</title>
-    <link href="http://chriswang.tk/2018/03/20/hello-world/"/>
-    <id>http://chriswang.tk/2018/03/20/hello-world/</id>
+    <link href="http://chriswang.tk/title.html"/>
+    <id>http://chriswang.tk/title.html</id>
     <published>2018-03-20T06:46:00.000Z</published>
     <updated>2018-04-03T03:20:59.917Z</updated>
     
