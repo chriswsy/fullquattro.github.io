@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chriswang.tk/emoji.html</loc>
+    
+    <lastmod>2018-04-17T07:31:42.827Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://chriswang.tk/gallery/index.html</loc>
     
     <lastmod>2018-04-17T07:16:31.900Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://chriswang.tk/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding.html</loc>
     
     <lastmod>2018-04-17T06:04:03.252Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chriswang.tk/emoji.html</loc>
-    
-    <lastmod>2018-04-17T06:03:35.867Z</lastmod>
     
   </url>
   
