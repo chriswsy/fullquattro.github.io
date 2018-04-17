@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chriswang.tk/gallery/index.html</loc>
+    
+    <lastmod>2018-04-17T07:16:31.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chriswang.tk/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding.html</loc>
+    
+    <lastmod>2018-04-17T06:04:03.252Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chriswang.tk/emoji.html</loc>
+    
+    <lastmod>2018-04-17T06:03:35.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chriswang.tk/hello-world.html</loc>
+    
+    <lastmod>2018-04-17T06:00:47.797Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://chriswang.tk/MarkdownGrammar.html</loc>
     
     <lastmod>2018-04-16T07:18:59.405Z</lastmod>
@@ -9,30 +37,9 @@
   </url>
   
   <url>
-    <loc>http://chriswang.tk/emoji.html</loc>
-    
-    <lastmod>2018-04-16T07:18:29.828Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chriswang.tk/hello-world.html</loc>
-    
-    <lastmod>2018-04-16T02:28:18.541Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://chriswang.tk//404.html</loc>
     
     <lastmod>2018-04-16T02:28:01.828Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chriswang.tk/gallery/index.html</loc>
-    
-    <lastmod>2018-04-16T02:27:54.246Z</lastmod>
     
   </url>
   
@@ -61,13 +68,6 @@
     <loc>http://chriswang.tk/google73adb54de2117200.html</loc>
     
     <lastmod>2018-04-10T02:41:20.543Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chriswang.tk/Using%20Hexo%20to%20Deploy%20Blog%20on%20GitHub%20and%20Coding.html</loc>
-    
-    <lastmod>2018-04-03T03:54:59.418Z</lastmod>
     
   </url>
   
